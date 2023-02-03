@@ -3,6 +3,7 @@ KEYWORDS = [
     "pleurodeles waltl",
     "science.org",
     "nature.com",
+    "cell.com",
 ]
 
 BLOCK_LIST = set(
