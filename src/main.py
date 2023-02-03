@@ -14,8 +14,8 @@ from setting import KEYWORDS, USERS, BLOCK_LIST
 
 def get_arguments() -> argparse.Namespace:
     parser = argparse.ArgumentParser()
-    parser.add_argument("--consumer_key", type=str, default=None)
-    parser.add_argument("--consumer_secret", type=str, default=None)
+    parser.add_argument("--customer_key", type=str, default=None)
+    parser.add_argument("--customer_secret", type=str, default=None)
     parser.add_argument("--access_token", type=str, default=None)
     parser.add_argument("--access_secret", type=str, default=None)
     parser.add_argument("--slack_incoming_webhook_url", type=str, default=None)
