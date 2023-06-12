@@ -1,6 +1,8 @@
 KEYWORDS = [
     "germ cell",
     "pleurodeles waltl",
+    "totipotent",
+    "pluripotent",
     "science.org",
     "nature.com",
     "cell.com",
