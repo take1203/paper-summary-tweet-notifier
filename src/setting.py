@@ -1,15 +1,10 @@
 KEYWORDS = [
-    "openaccess.thecvf.com",
+    "stem cell.org",
     "arxiv.org",
-    "ojs.aaai.org",
-    "iclr.cc",
-    "nips.cc",
-    "icml.cc",
-    "aclweb.org",
-    "github.com セグメンテーション",
-    "github.com segmentation",
-    "github.com 物体検出",
-    "github.com object detection",
+    "science.org",
+    "nature.com germ",
+    "nature.com stem cell",
+    "cell.com",
 ]
 
 BLOCK_LIST = set(
