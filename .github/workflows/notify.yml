@@ -26,7 +26,7 @@ jobs:
         env:
           SLACK_INCOMING_WEBHOOK_URL: ${{ secrets.SLACK_INCOMING_WEBHOOK_URL }}
           LINE_TOKEN: ${{ secrets.LINE_TOKEN }}
-          CUSTOMER_KEY: ${{ secrets.CONSUMER_KEY }}
-          CUSTOMER_SECRET: ${{ secrets.CONSUMER_SECRET }}
+          CUSTOMER_KEY: ${{ secrets.CUSTOMER_KEY }}
+          CUSTOMER_SECRET: ${{ secrets.CUSTOMER_SECRET }}
           ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
           ACCESS_SECRET: ${{ secrets.ACCESS_SECRET }}
