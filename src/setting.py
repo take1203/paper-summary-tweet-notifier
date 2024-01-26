@@ -5,11 +5,9 @@ KEYWORDS = [
 ]
 
 BLOCK_LIST = set(
-    [
-        
+    [    
     ]
 )
 
 USERS = [
-    "Bio_stations",
 ]
