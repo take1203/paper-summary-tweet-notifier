@@ -10,8 +10,8 @@ def authorize(
     access_token: Optional[str] = None,
     access_secret: Optional[str] = None,
 ) -> tweepy.API:
-    consumer_key = consumer_key or os.getenv("CONSUMER_KEY")
-    consumer_secret = consumer_secret or os.getenv("CONSUMER_SECRET")
+    consumer_key = consumer_key or os.getenv("CUSTOMER_KEY")
+    consumer_secret = consumer_secret or os.getenv("CUSTOMER_SECRET")
     access_token = access_token or os.getenv("ACCESS_TOKEN")
     access_secret = access_secret or os.getenv("ACCESS_SECRET")
 
